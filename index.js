@@ -19,6 +19,6 @@ let r="";
    r = element.split(' ').map((index)=>{
     return index.charAt(0).toUpperCase() + index.slice(1);
   }).join(" ");
-   return a;
+   return r;
  })
 }
